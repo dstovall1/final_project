@@ -60,3 +60,25 @@ body  {
       18px 14px 9px 4px       /* outset */
       round;                  /* repeat */
 }
+.shows_text {
+  float:inline-start;
+  clear: left;
+  margin-top: 40px;
+  align-items: center;
+  text-align: center;
+}
+#bitmap2 {
+  width: 400px;
+  background-color: #ffa;
+  border: 36px solid orange;
+  margin: 30px;
+  padding: 10px;
+  float: left;
+
+  border-image:
+      url("border.png")  /* source */
+      27 /                    /* slice */
+      36px 28px 18px 8px /    /* width */
+      18px 14px 9px 4px       /* outset */
+      round;                  /* repeat */
+}
